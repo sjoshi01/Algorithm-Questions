@@ -1,3 +1,7 @@
+/*
+eg. input : 1-2-3-4-5-6 and k=2, then output: 2-1-4-3-6-5
+    input : 1-2-3-4-5 and k=3, then output: 3-2-1-4-5
+*/
 package LeetCodeLinkedList;
 
 public class ReverseKGroupLinkedList {
@@ -32,3 +36,4 @@ public class ReverseKGroupLinkedList {
         return dummy.next;
     }
 }
+
